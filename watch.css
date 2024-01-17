@@ -1,0 +1,54 @@
+/* Styling for all elements */
+* {
+    background-color: rgb(38, 37, 37); 
+    color: white; 
+}
+
+/* Body styling */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling for the stopwatch container */
+.stopwatch {
+    text-align: center;
+}
+
+/* Styling for the stopwatch title */
+.title {
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+}
+
+/* Styling for the stopwatch display area */
+#display {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+/* Styling for the stopwatch control buttons */
+.button {
+    font-style: italic;
+    box-sizing: inherit;
+    font-size: 1.5em;
+    margin: 5px;
+    max-width: 5em;
+    box-shadow: 2px 2px 5px rgba(176, 161, 161, 0.5); 
+}
+
+/* Styling for the list of laps */
+#laps {
+    list-style: none;
+    padding: 2em;
+}
+
+/* Styling for the footer (not used in the provided HTML) */
+footer {
+    text-align: center;
+    margin-top: 20px; 
+}
