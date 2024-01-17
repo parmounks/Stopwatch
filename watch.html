@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata for character set and viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Linking to the CSS file for styling -->
+  <link rel="stylesheet" href="watch.css">
+  
+  <!-- Title of the HTML document -->
+  <title>Stopwatch</title>
+</head>
+<body>
+  <!-- Stopwatch container -->
+  <div class="stopwatch">
+    <!-- Stopwatch title -->
+    <h1 class="title">Stopwatch App</h1>
+    
+    <!-- Display area for the stopwatch -->
+    <div id="display">00:00:00</div>
+    
+    <!-- Buttons for controlling the stopwatch -->
+    <button class="button" id="startBtn" onclick="startStopwatch()">Start</button>
+    <button class="button" id="stopBtn" onclick="stopStopwatch()">Stop</button>
+    <button class="button" id="lapBtn" onclick="recordLap()">Lap</button>
+    <button class="button" id="resetBtn" onclick="resetStopwatch()">Reset</button>
+    
+    <!-- List to display recorded laps -->
+    <ul id="laps"></ul>
+  </div>
+  
+  <!-- Linking to the JavaScript file for functionality -->
+  <script src="watch.js"></script>
+</body>
+</html>
