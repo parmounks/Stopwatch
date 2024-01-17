@@ -18,7 +18,7 @@ JavaScript handles the logic behind the stopwatch functionalities. It uses inter
 
 ## How to Use
 
-1. Open `index.html` in a web browser.
+1. Open `watch.html`, `watch.css` and `watch.js` files at the same time in a code editor and hit live preview.
 2. The stopwatch initially displays "00:00:00."
 3. Click the "Start" button to begin the stopwatch. The button will change to "Pause."
 4. Click "Pause" to stop the stopwatch temporarily. The button will change to "Resume."
