@@ -24,5 +24,5 @@ JavaScript handles the logic behind the stopwatch functionalities. It uses inter
 4. Click "Pause" to stop the stopwatch temporarily. The button will change to "Resume."
 5. Click "Reset" to reset the stopwatch to zero.
 6. While the stopwatch is running, click "Lap" to record a lap time. The recorded laps will be displayed below the stopwatch.
-7. 
+   
 
